@@ -1,0 +1,50 @@
+{
+    "name": "pascalebeier/csrf",
+    "type": "library",
+    "description": "CSRF Token Field Generation and Validation",
+    "keywords": [
+        "PascaleBeier",
+        "CSRF"
+    ],
+    "homepage": "https://github.com/PascaleBeier/CSRF",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Pascale Beier",
+            "email": "mail@pascalebeier.de",
+            "homepage": "https://github.com/PascaleBeier",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "~5.6|~7.0|~7.1",
+        "paragonie/random_compat": "^2.0",
+        "symfony/http-foundation": "^3.2"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "^2.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PascaleBeier\\CSRF\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PascaleBeier\\CSRF\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "phpunit",
+        "check-style": "phpcs -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src",
+        "fix-style": "phpcbf -p --standard=PSR2 --runtime-set ignore_errors_on_exit 1 --runtime-set ignore_warnings_on_exit 1 src"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
