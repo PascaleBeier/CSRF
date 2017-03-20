@@ -115,13 +115,13 @@ If you discover any security related issues, please email mail@pascalebeier.de i
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/PascaleBeier/Config.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/PascaleBeier/CSRF.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/PascaleBeier/Config.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/PascaleBeier/CSRF.svg?style=flat-square
 [ico-psr2]: https://img.shields.io/badge/psr-2-brightgreen.svg
 [ico-psr4]: https://img.shields.io/badge/psr-4-brightgreen.svg
 
-[link-packagist]: https://packagist.org/packages/PascaleBeier/Config
-[link-downloads]: https://packagist.org/packages/PascaleBeier/Config
+[link-packagist]: https://packagist.org/packages/PascaleBeier/CSRF
+[link-downloads]: https://packagist.org/packages/PascaleBeier/CSRF
 [link-author]: https://github.com/PascaleBeier
 [link-contributors]: ../../contributors
